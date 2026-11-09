@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_051.jpg` | Xe có kích thước lớn, phần thân dùng để chở hàng nhưng hình dáng khá giống xe van. | Gán nhãn `truck` nếu xe có thùng chở hàng và cấu trúc đặc trưng của xe tải. | Phân loại dựa trên cấu trúc và mục đích chở hàng của phương tiện, không chỉ dựa vào kích thước. |
+| `drive_052.jpg` | Xe có thân kín, kích thước nhỏ hơn xe tải và có hình dáng giống xe chở khách. | Gán nhãn `van` nếu xe thuộc dạng xe thương mại thân kín, không phải xe con thông thường. | Schema phân biệt `van` với `car` dựa trên kiểu dáng và cấu trúc phương tiện. |
+| `drive_053.jpg` | Xe có nhiều cửa sổ, kích thước lớn và hình dáng tương tự xe khách nhưng góc chụp không thể hiện rõ toàn bộ xe. | Gán nhãn `bus` khi các đặc điểm nhận diện xe buýt đủ rõ; nếu không đủ bằng chứng thì cần kiểm tra lại ảnh. | Chỉ sử dụng nhãn `bus` khi phương tiện có đặc điểm phù hợp với lớp xe buýt, tránh suy đoán từ một phần hình ảnh. |
