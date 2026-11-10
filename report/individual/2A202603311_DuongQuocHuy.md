@@ -59,7 +59,7 @@ File đánh giá: `outputs/annotation_evaluation.json` (ngưỡng IoU match = 0.
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | 362 | Chưa có (chưa sửa nhãn) |
+| TP | 362 | Chưa có |
 | FP | 261 | Chưa có |
 | FN | 291 | Chưa có |
 | Precision | 0.5811 | Chưa có |
